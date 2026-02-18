@@ -4,7 +4,7 @@ import Menu from "./pages/Menu/Menu";
 import Contact from "./pages/Contact/Contact";
 import Admin from "./pages/Admin/Admin";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "../../../Zap-shift-delivery-projects/fontend/src/Layout/Layout";
+import Layout from "./layout/Layout";
 
 const AppRouter = () => {
   const route = createBrowserRouter([
